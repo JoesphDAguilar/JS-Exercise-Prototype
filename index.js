@@ -104,10 +104,13 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. this will return the window if none of the other rules apply.
+
+  2. Whenever a function is called before a preceding dot syntax, the object before the dot is 'this'.
+
+  3. When a constructor function is used, 'this' refers to that specific instance of the object created
+
+  4. Whenever a call or apply method is used, 'this' is explicitly defined.
 */
 
 
